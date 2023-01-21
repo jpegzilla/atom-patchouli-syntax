@@ -1,4 +1,4 @@
-# patchouli syntax theme
+# patchouli syntax theme (for atom)
 
 loosely based on the color scheme of patchouli knowledge from the touhou project, because I love her.
 
