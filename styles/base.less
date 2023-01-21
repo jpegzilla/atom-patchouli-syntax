@@ -70,6 +70,11 @@ atom-text-editor {
   .selection .region {
     background-color: @syntax-selection-color;
   }
+  
+  & atom-text-editor-minimap .minimap-visible-area::after,
+  html atom-text-editor-minimap .minimap-visible-area::after {
+    background-color: hsla(321, 54%, 29%, 0.38);
+  }
 }
 
 
@@ -87,7 +92,7 @@ atom-text-editor {
   }
 
   &.syntax--operator {
-    color: @syntax-text-color;
+    color: @keyword-color;
   }
 
   &.syntax--other.syntax--special-method {
@@ -317,7 +322,6 @@ atom-text-editor {
     color: @string-color;
   }
 }
-
 
 // Mini editor
 
